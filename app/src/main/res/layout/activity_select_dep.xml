@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pdl"
+    android:orientation="vertical"
+    tools:context=".SelectDep">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Various Departments"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGeneralPractitioner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#009688"
+        android:text="General Practitioner" />
+
+    <Button
+        android:id="@+id/btnDentist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#009688"
+        android:text="Dentist" />
+
+    <Button
+        android:id="@+id/btnDietitian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#009688"
+        android:text="Dietitian" />
+
+    <Button
+        android:id="@+id/btnOrthotist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#009688"
+        android:text="Orthotist" />
+
+    <Button
+        android:id="@+id/btnChiropractor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#009688"
+        android:text="Chiropractor" />
+
+    <Button
+        android:id="@+id/btnAudiologist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#009688"
+        android:text="Audiologist" />
+
+    <Button
+        android:id="@+id/btnPhysiotherapist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#009688"
+        android:text="Physiotherapist" />
+
+    <Button
+        android:id="@+id/btnPsychologist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#009688"
+        android:text="Psychologist" />
+
+</LinearLayout>

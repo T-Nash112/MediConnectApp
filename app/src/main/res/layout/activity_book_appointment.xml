@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Appointment"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Patient's Name" />
+
+    <TextView
+        android:id="@+id/textViewDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Department"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonGeneralPractitioner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Practitioner" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDentist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dentist" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDietitian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dietitian" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOrthodontist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orthodontist" />
+
+        <RadioButton
+            android:id="@+id/radioButtonChiropractor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chiropractor" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAudiologist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audiologist" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPhysiotherapist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Physiotherapist" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPsychologist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Psychologist" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enter Date (YYYY-MM-DD)"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="YYYY-MM-DD"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enter Time (HH:MM)"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="HH:MM"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/buttonBookAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="#03A9F4"
+        android:text="Book Appointment" />
+
+    <Button
+        android:id="@+id/butBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>

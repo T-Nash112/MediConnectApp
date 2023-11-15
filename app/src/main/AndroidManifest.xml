@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MediConnectapk"
+        tools:targetApi="31">
+        <activity
+            android:name=".Terms"
+            android:exported="false" />
+        <activity
+            android:name=".AppSettings"
+            android:exported="false" />
+        <activity
+            android:name=".MediSettings"
+            android:exported="false" />
+        <activity
+            android:name=".Chatbot"
+            android:exported="false" />
+        <activity
+            android:name=".Enter_PatTreatment"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_PatHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Lobby"
+            android:exported="false" />
+        <activity
+            android:name=".Pat_page"
+            android:exported="false" />
+        <activity
+            android:name=".Pat_treat"
+            android:exported="false" />
+        <activity
+            android:name=".Pat_History"
+            android:exported="false" />
+        <activity
+            android:name=".Book_appointment"
+            android:exported="false" />
+        <activity
+            android:name=".Enter_new_patiant"
+            android:exported="false" />
+        <activity
+            android:name=".Doc_Page"
+            android:exported="false" />
+        <activity
+            android:name=".SelectDep"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
